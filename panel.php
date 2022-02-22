@@ -39,7 +39,7 @@
 
  <script>
 
-   var string;
+   var string="";
 function getValues(){
   document.querySelectorAll('.kategorie div').forEach(function(e){
 
