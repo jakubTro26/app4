@@ -43,10 +43,10 @@ function get_products_ids(){
 
     foreach($categoryArray as $category=>$id)
         {
-            var_dump($category);
-        //  $needle =  array_search($category , $idArray);
+            
+          $needle =  array_search($category , $idArray);
            
-          //  var_dump($needle);
+            var_dump($needle);
             
             //     $methodParams = '{
             //         "inventory_id":'. $id .'
