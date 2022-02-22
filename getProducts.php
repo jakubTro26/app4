@@ -107,9 +107,7 @@ function get_products_ids(){
 
                 ?>
 
-                <script>
-                    console.log('kuba');
-                </script>
+            
 
                 <?php
 
@@ -119,7 +117,7 @@ function get_products_ids(){
         }
 
     }
-  var_dump($productIdsArray);
+    echo 'kuba';
         
     return $content;
 
