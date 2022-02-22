@@ -105,11 +105,7 @@ function get_products_ids(){
                     array_push($productIdsArray[$categoryString],$product->id);
                 }
 
-                ?>
-
-            
-
-                <?php
+               echo '<script> console.log("kuba");</script>';
 
                 curl_close($ch);
 
@@ -117,7 +113,7 @@ function get_products_ids(){
         }
 
     }
-    var_dump('kuba');
+   
         
     return $content;
 
