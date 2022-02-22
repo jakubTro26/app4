@@ -37,3 +37,21 @@
  Generuj plik XMl
  </div>
 
+ <script>
+function getValues(){
+
+}
+
+function doRequest() {
+  
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        
+      }
+    };
+    xmlhttp.open("GET", "getProducts.php?q=" + str, true);
+    xmlhttp.send();
+  
+}
+</script>
