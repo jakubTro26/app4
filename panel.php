@@ -66,7 +66,7 @@
     </div>
 
  <div  class="generuj btn btn-primary"  onclick="getValues()">
- Generuj plik XMl
+ Generuj plik XML
  </div>
 
  <script>
