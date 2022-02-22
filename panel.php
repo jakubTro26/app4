@@ -96,7 +96,7 @@ function doRequest(string) {
         handleCount();
       }
     };
-    xmlhttp.open("GET", "getProducts.php?q=" + string, true);
+    xmlhttp.open("GET", "getIds.php?q=" + string, true);
     xmlhttp.send();
   
 }
