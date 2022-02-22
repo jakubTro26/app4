@@ -107,18 +107,10 @@ function get_products_ids(){
 
                 
 
-                ignore_user_abort(true);//not required
-                set_time_limit(0);
-                
-                ob_start();
-                // do initial processing here
+              
+               
                 echo $category . ',' . $idCount . ',';
-                header('Connection: close');
-                header('Content-Length: '.ob_get_length());
-                ob_end_flush();
-                @ob_flush();
-                flush();
-                fastcgi_finish_request();//required for PHP-FPM (PHP > 5.3.3)
+               
               
 
                 curl_close($ch);
@@ -128,7 +120,7 @@ function get_products_ids(){
 
     }
    
-    echo 'kuba';
+ 
     return $content;
 
  }
