@@ -8,6 +8,6 @@ $q = $_REQUEST["q"];
 $idArray = explode(',', $q);
 
 
-echo $q;
+var_dump($idArray);
 
 ?>
