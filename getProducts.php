@@ -20,8 +20,10 @@
 
 
 
- foreach($categoryArray as $category){
-     var_dump($category);
+ foreach($categoryArray as $category=>$id){
+     
+    
+    var_dump($category);
  }
 
 
