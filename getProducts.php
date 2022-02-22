@@ -18,13 +18,18 @@
  $categoryArray['Katalog domyslny']=72;
  $categoryArray['Akord hurtownia']=1184;
 
+?>
 
-
+        <div>
+<?php
  foreach($categoryArray as $category=>$id){
-     
+     ?>
     
-    var_dump($category);
+    <input type="checkbox"><?php echo $category ?>
+    <?php
  }
 
+ ?>
 
+    </div>
 ?>
