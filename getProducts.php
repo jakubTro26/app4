@@ -46,7 +46,7 @@ function get_products_ids(){
             
           $needle =  array_search($category , $idArray);
             
-          if($needle != 'false'){
+          if(false != $needle){
               echo $needle;
           }
             
