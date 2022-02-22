@@ -22,8 +22,7 @@
  $categoryArray['Akord hurtownia']=1184;
 
 
-global $v;
-$v = 'kuba';
+ $GLOBALS["foo"]="kubson";
 
 
 $q = $_REQUEST["q"];

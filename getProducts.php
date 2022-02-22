@@ -1,9 +1,6 @@
 <?php 
 
-global $v;
-
-echo $v;
-echo 'mati';
+echo  $GLOBALS["foo"];
 
 
 ?>
