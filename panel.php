@@ -92,7 +92,7 @@ function doRequest(string) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-        var response = this.responseText;
+        window.response = this.responseText;
       }
     };
     xmlhttp.open("GET", "getProducts.php?q=" + string, true);
