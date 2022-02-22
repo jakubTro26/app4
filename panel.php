@@ -93,11 +93,18 @@ function doRequest(string) {
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         window.response = this.responseText;
+        handleCount();
       }
     };
     xmlhttp.open("GET", "getProducts.php?q=" + string, true);
     xmlhttp.send();
   
+}
+
+
+function handleCount(){
+
+
 }
 </script>
 
