@@ -1,6 +1,6 @@
 <?php
+$q = $_REQUEST["q"];
 
-
-echo 'kuba';
+var_dump($q);
 
 ?>
