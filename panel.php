@@ -100,7 +100,7 @@ function doRequest(string) {
         
         let re = /start.*stop/;
 
-        let result = re.test(xmlhttp.responseText);
+        let result = re.exec(xmlhttp.responseText);
 
         window.response=result;
         
