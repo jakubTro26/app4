@@ -38,11 +38,14 @@
  </div>
 
  <script>
+
+   var string;
 function getValues(){
   document.querySelectorAll('.kategorie div').forEach(function(e){
 
-    doRequest(e);
-  })
+   string+=e;
+  });
+  doRequest(string);
 }
 
 function doRequest(string) {
