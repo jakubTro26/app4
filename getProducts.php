@@ -27,7 +27,7 @@ $idArray = explode(',', $q);
 
 
 
-
+get_products_ids();
 
 
 
@@ -97,7 +97,7 @@ function get_products_ids(){
 
 
         
-    return $content;
+    //return $content;
 
  }
 
