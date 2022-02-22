@@ -39,6 +39,10 @@ function get_products_ids(){
 
     global $idArray;
 
+    global $idCount;
+
+    $idCount = 0;
+
     $productIdsArray = array();
 
     foreach($idArray as $category)
@@ -94,8 +98,10 @@ function get_products_ids(){
 
                $productIdsArray[$categoryString] = array();
 
+               $productIdsArray['idCount']
+
                 foreach ($json->products as $product){
-                    
+                    $idCount++;
                     array_push($productIdsArray[$categoryString],$product->id);
                 }
 
@@ -105,7 +111,7 @@ function get_products_ids(){
 
     }
   
-        var_dump($productIdsArray);
+        
     return $content;
 
  }
