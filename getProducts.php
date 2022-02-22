@@ -46,7 +46,10 @@ function get_products_ids(){
             
           $needle =  array_key_exists($category , $categoryArray);
             
-          var_dump($needle);
+          if(true == $needle){
+
+            var_dump($categoryArray[$category]);
+          }
         
             
             //     $methodParams = '{
