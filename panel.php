@@ -42,9 +42,10 @@
    var string="";
 function getValues(){
   document.querySelectorAll('.kategorie input').forEach(function(e){
-
+    if(e.checked){
    string+=e.parentElement.innerText;
    string+=',';
+    }
   });
   doRequest(string);
 }
