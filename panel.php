@@ -43,7 +43,7 @@
 function getValues(){
   document.querySelectorAll('.kategorie div').forEach(function(e){
 
-   string+=e;
+   string+=e.innerText;
   });
   doRequest(string);
 }
