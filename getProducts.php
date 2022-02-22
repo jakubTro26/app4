@@ -47,7 +47,7 @@ function get_products_ids(){
           $needle =  array_search($category , $idArray);
             
          if(is_int($needle)){
-             echo $needle;
+             echo $idArray[$needle];
          }
             
             //     $methodParams = '{
