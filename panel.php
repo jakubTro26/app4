@@ -98,7 +98,11 @@ function doRequest(string) {
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         
-        window.response=xmlhttp.responseText;
+        let re = /start.*stop/;
+
+        let result = re.test(xmlhttp.responseText);
+
+        window.response=result;
         
         handleCount();
       }
