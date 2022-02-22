@@ -48,60 +48,61 @@ function get_products_ids(){
             
           if(true == $needle){
 
-            var_dump($categoryArray[$category]);
-          }
+            
+          
         
             
-            //     $methodParams = '{
-            //         "inventory_id":'. $id .'
+                 $methodParams = '{
+                     "inventory_id":'. $categoryArray[$category] .'
                 
-            //     }';
-            //     $apiParams = [
-            //         "method" => "getInventoryProductsList",
-            //         "parameters" => $methodParams
-            //     ];
+                 }';
+                 $apiParams = [
+                     "method" => "getInventoryProductsList",
+                    "parameters" => $methodParams
+                ];
 
-            //     $options = array(
-            //         CURLOPT_RETURNTRANSFER => true,   // return web page
-            //         CURLOPT_HEADER         => false,  // don't return headers
-            //         CURLOPT_FOLLOWLOCATION => true,   // follow redirects
-            //         CURLOPT_MAXREDIRS      => 10,     // stop after 10 redirects
-            //         CURLOPT_ENCODING       => "",     // handle compressed
-            //         CURLOPT_USERAGENT      => "test", // name of client
-            //         CURLOPT_AUTOREFERER    => true,   // set referrer on redirect
-            //         CURLOPT_CONNECTTIMEOUT => 120,    // time-out on connect
-            //         CURLOPT_TIMEOUT        => 120,    // time-out on response
-            //         CURLOPT_POST           => 1,
-            //         CURLOPT_HTTPHEADER     => ["X-BLToken: 2001325-2004269-W4ZO31ZQNSLN0NI8ITHJ3Q1R71L479QBKOGVABB9YBXJXF6BZZQPFOLMN7IT5BJV"],
-            //         CURLOPT_POSTFIELDS     => http_build_query($apiParams),
+                $options = array(
+                    CURLOPT_RETURNTRANSFER => true,   // return web page
+                    CURLOPT_HEADER         => false,  // don't return headers
+                    CURLOPT_FOLLOWLOCATION => true,   // follow redirects
+                    CURLOPT_MAXREDIRS      => 10,     // stop after 10 redirects
+                    CURLOPT_ENCODING       => "",     // handle compressed
+                    CURLOPT_USERAGENT      => "test", // name of client
+                    CURLOPT_AUTOREFERER    => true,   // set referrer on redirect
+                    CURLOPT_CONNECTTIMEOUT => 120,    // time-out on connect
+                    CURLOPT_TIMEOUT        => 120,    // time-out on response
+                    CURLOPT_POST           => 1,
+                    CURLOPT_HTTPHEADER     => ["X-BLToken: 2001325-2004269-W4ZO31ZQNSLN0NI8ITHJ3Q1R71L479QBKOGVABB9YBXJXF6BZZQPFOLMN7IT5BJV"],
+                    CURLOPT_POSTFIELDS     => http_build_query($apiParams),
 
-            //     ); 
-
-
-            //     $ch = curl_init("https://api.baselinker.com/connector.php");
-            //     curl_setopt_array($ch, $options);
-
-            //     $content  = curl_exec($ch);
-
-            //     $json=json_decode($content);
-
-            //     $productIdsArray['category' . $id] = array();
+                ); 
 
 
-            //    $categoryString = 'category'. $id;
+                $ch = curl_init("https://api.baselinker.com/connector.php");
+                curl_setopt_array($ch, $options);
 
-            //     foreach ($json->products as $product){
+                $content  = curl_exec($ch);
 
-            //         array_push($productIdsArray[$categoryString],$product->id);
-            //     }
+                $json=json_decode($content);
 
-            //     curl_close($ch);
+               // $productIdsArray['category' . $categoryArray[$category]] = array();
+
+
+               $categoryString = 'category'. $categoryArray[$category];
+
+                foreach ($json->products as $product){
+
+                    array_push($productIdsArray[$categoryString],$product->id);
+                }
+
+                curl_close($ch);
         
         }
 
-
+    }
+    var_dump($productIdsArray);
         
-    //return $content;
+    return $content;
 
  }
 
