@@ -1,5 +1,8 @@
 <?php
 
+
+   
+
  $categoryArray['Kocot Kids Nowy']=801;
  $categoryArray['Comad']=712;
  $categoryArray['Wróbel']=716;
