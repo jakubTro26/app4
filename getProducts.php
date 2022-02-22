@@ -45,7 +45,7 @@ function get_products_ids(){
         {
             
           $needle =  array_search($category , $idArray);
-           
+           var_dump($needle);
             var_dump($idArray[$needle]);
             
             //     $methodParams = '{
