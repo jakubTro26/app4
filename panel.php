@@ -41,9 +41,9 @@
 
    var string="";
 function getValues(){
-  document.querySelectorAll('.kategorie div').forEach(function(e){
+  document.querySelectorAll('.kategorie input').forEach(function(e){
 
-   string+=e.innerText;
+   string+=e.parentElement.innerText;
   });
   doRequest(string);
 }
