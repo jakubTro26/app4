@@ -39,7 +39,7 @@
 
  <script>
 function getValues(){
-
+  document.querySelectorAll('.kategorie div').forEach(function(e){console.log(e.innerText)})
 }
 
 function doRequest() {
