@@ -57,7 +57,7 @@
  foreach($categoryArray as $category=>$id){
      ?>
     
-    <div><input type="checkbox"><?php echo $category ?></div>
+    <div class="in"><div><input type="checkbox"><?php echo $category ?></div></div>
     <?php
  }
 
