@@ -54,10 +54,14 @@
 
         <div class="kategorie">
 <?php
+
+$i =0;
  foreach($categoryArray as $category=>$id){
+
+  $i++;
      ?>
     
-    <div class="in"><input type="checkbox"><div><?php echo $category ?></div></div>
+    <div class="in"><input type="checkbox"><div><?php echo $category ?></div><div class="count<?php $i ?>"></div></div>
     <?php
  }
 
@@ -88,7 +92,7 @@ function doRequest(string) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-        
+       // document.getElementById("txtHint").innerHTML = this.responseText;
       }
     };
     xmlhttp.open("GET", "getProducts.php?q=" + string, true);
