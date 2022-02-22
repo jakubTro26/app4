@@ -110,7 +110,7 @@ function get_products_ids(){
         }
 
     }
-  
+  var_dump($productIdsArray);
         
     return $content;
 
