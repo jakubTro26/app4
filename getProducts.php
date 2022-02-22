@@ -2,6 +2,7 @@
 
 
 echo $v;
+echo 'mati';
 
 
 ?>
