@@ -22,7 +22,7 @@
  $categoryArray['Akord hurtownia']=1184;
 
 
- $GLOBALS["foo"]="kubson";
+ 
 
 
 $q = $_REQUEST["q"];
@@ -117,8 +117,9 @@ function get_products_ids(){
                
                 echo $category . ',' . $idCount . ',';
                
+                echo " || ";
                 
-                
+                echo "echoing";
 
                 curl_close($ch);
 
