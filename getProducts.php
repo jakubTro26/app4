@@ -111,8 +111,7 @@ function get_products_ids(){
                
                 echo $category . ',' . $idCount . ',';
                
-                ob_start();
-                $connectionStatus = ob_get_clean();
+                
                 echo 'kuba';
 
                 curl_close($ch);
