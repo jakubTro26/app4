@@ -39,10 +39,13 @@
 
  <script>
 function getValues(){
-  document.querySelectorAll('.kategorie div').forEach(function(e){console.log(e.innerText)})
+  document.querySelectorAll('.kategorie div').forEach(function(e){
+
+    doRequest(e);
+  })
 }
 
-function doRequest() {
+function doRequest(string) {
   
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -50,7 +53,7 @@ function doRequest() {
         
       }
     };
-    xmlhttp.open("GET", "getProducts.php?q=" + str, true);
+    xmlhttp.open("GET", "getProducts.php?q=" + string, true);
     xmlhttp.send();
   
 }
