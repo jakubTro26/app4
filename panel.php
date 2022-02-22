@@ -44,6 +44,7 @@ function getValues(){
   document.querySelectorAll('.kategorie input').forEach(function(e){
 
    string+=e.parentElement.innerText;
+   string+=',';
   });
   doRequest(string);
 }
