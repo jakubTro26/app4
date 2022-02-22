@@ -21,15 +21,87 @@
 
 $q = $_REQUEST["q"];
 
+
+
 $idArray = explode(',', $q);
 
 
 
 
-foreach($categoryArray as $category=>$id)
-{
-    var_dump($id);
 
-}
+
+
+function get_products_ids(){
+
+    global $categoryArray;
+
+    global $productIdsArray;
+
+    global $idArray;
+
+    $productIdsArray = array();
+
+    foreach($categoryArray as $category=>$id)
+        {
+
+          $needle =  array_search($category , $idArray);
+           
+            var_dump($needle);
+            
+            //     $methodParams = '{
+            //         "inventory_id":'. $id .'
+                
+            //     }';
+            //     $apiParams = [
+            //         "method" => "getInventoryProductsList",
+            //         "parameters" => $methodParams
+            //     ];
+
+            //     $options = array(
+            //         CURLOPT_RETURNTRANSFER => true,   // return web page
+            //         CURLOPT_HEADER         => false,  // don't return headers
+            //         CURLOPT_FOLLOWLOCATION => true,   // follow redirects
+            //         CURLOPT_MAXREDIRS      => 10,     // stop after 10 redirects
+            //         CURLOPT_ENCODING       => "",     // handle compressed
+            //         CURLOPT_USERAGENT      => "test", // name of client
+            //         CURLOPT_AUTOREFERER    => true,   // set referrer on redirect
+            //         CURLOPT_CONNECTTIMEOUT => 120,    // time-out on connect
+            //         CURLOPT_TIMEOUT        => 120,    // time-out on response
+            //         CURLOPT_POST           => 1,
+            //         CURLOPT_HTTPHEADER     => ["X-BLToken: 2001325-2004269-W4ZO31ZQNSLN0NI8ITHJ3Q1R71L479QBKOGVABB9YBXJXF6BZZQPFOLMN7IT5BJV"],
+            //         CURLOPT_POSTFIELDS     => http_build_query($apiParams),
+
+            //     ); 
+
+
+            //     $ch = curl_init("https://api.baselinker.com/connector.php");
+            //     curl_setopt_array($ch, $options);
+
+            //     $content  = curl_exec($ch);
+
+            //     $json=json_decode($content);
+
+            //     $productIdsArray['category' . $id] = array();
+
+
+            //    $categoryString = 'category'. $id;
+
+            //     foreach ($json->products as $product){
+
+            //         array_push($productIdsArray[$categoryString],$product->id);
+            //     }
+
+            //     curl_close($ch);
+        
+        }
+
+
+        
+    return $content;
+
+ }
+
+
+
 
 ?>
