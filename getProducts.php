@@ -111,7 +111,9 @@ function get_products_ids(){
                
                 echo $category . ',' . $idCount . ',';
                
-              
+                ob_start();
+
+                echo 'kuba';
 
                 curl_close($ch);
 
