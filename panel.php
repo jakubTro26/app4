@@ -102,8 +102,8 @@ function doRequest(string) {
 
         var result = re.exec(xmlhttp.responseText);
 
-        var ret = result.replace('start','');
-        var ret = result.replace('stop','');
+        var ret = result[0].replace('start','');
+        var ret = result[0].replace('stop','');
         window.response=ret;
         
         handleCount();
