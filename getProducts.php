@@ -44,7 +44,7 @@ function get_products_ids(){
     foreach($idArray as $category)
         {
             
-          $needle =  array_key_exists('Vivaldi' , $categoryArray);
+          $needle =  array_key_exists($category , $categoryArray);
             
           var_dump($needle);
         
