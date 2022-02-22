@@ -46,7 +46,9 @@ function get_products_ids(){
             
           $needle =  array_search($category , $idArray);
             
-          var_dump($needle);
+          if($needle != false){
+              echo $needle;
+          }
             
             //     $methodParams = '{
             //         "inventory_id":'. $id .'
