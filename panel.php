@@ -33,7 +33,7 @@
 
     </div>
 
- <div class="generuj" onkeyup="getValues()">
+ <div class="generuj" onclick="getValues()">
  Generuj plik XMl
  </div>
 
