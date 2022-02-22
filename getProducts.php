@@ -105,7 +105,7 @@ function get_products_ids(){
                     array_push($productIdsArray[$categoryString],$product->id);
                 }
 
-                echo $idCount + ',' + $category + ',';
+                echo $category;
 
                 curl_close($ch);
 
