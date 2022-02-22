@@ -86,14 +86,14 @@ function get_products_ids(){
                 
 
                 $json=json_decode($content);
-                var_dump($json);
+                
                // $productIdsArray['category' . $categoryArray[$category]] = array();
 
 
                $categoryString = 'category'. $categoryArray[$category];
 
                 foreach ($json->products as $product){
-
+                    var_dump($product);
                     array_push($productIdsArray[$categoryString],$product->id);
                 }
 
