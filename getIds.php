@@ -19,6 +19,10 @@
  $categoryArray['Akord hurtownia']=1184;
 
 
+global $v;
+$v = 'kuba';
+
+
 $q = $_REQUEST["q"];
 
 
@@ -112,7 +116,7 @@ function get_products_ids(){
                 echo $category . ',' . $idCount . ',';
                
                 
-                echo 'kuba';
+                
 
                 curl_close($ch);
 

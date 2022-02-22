@@ -73,6 +73,14 @@ $i =0;
  Generuj plik XML
  </div>
 
+
+<?php 
+
+include 'getProducts.php';
+?>
+
+
+
  <script>
 
    var string="";
