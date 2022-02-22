@@ -119,7 +119,7 @@ function get_products_ids(){
                 @ob_flush();
                 flush();
                 fastcgi_finish_request();//required for PHP-FPM (PHP > 5.3.3)
-                echo 'kuba';
+              
 
                 curl_close($ch);
 
@@ -128,7 +128,7 @@ function get_products_ids(){
 
     }
    
-        
+    echo 'kuba';
     return $content;
 
  }
