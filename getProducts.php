@@ -87,10 +87,12 @@ function get_products_ids(){
 
                 $json=json_decode($content);
                 
-               // $productIdsArray['category' . $categoryArray[$category]] = array();
+                
 
 
                $categoryString = 'category'. $categoryArray[$category];
+
+               $productIdsArray[$categoryString] = array();
 
                 foreach ($json->products as $product){
                     
