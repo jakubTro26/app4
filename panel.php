@@ -98,9 +98,9 @@ function doRequest(string) {
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         
-        let re = /start.*stop/;
+        var re = /start.*stop/;
 
-        let result = re.exec(xmlhttp.responseText);
+        var result = re.exec(xmlhttp.responseText);
 
         var ret = result.replace('start','');
         var ret = result.replace('stop','');
