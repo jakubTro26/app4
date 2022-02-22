@@ -39,6 +39,9 @@ get_products_ids();
 
 function get_products_ids(){
 
+
+    echo 'start';
+
     global $categoryArray;
 
     global $productIdsArray;
@@ -117,7 +120,7 @@ function get_products_ids(){
                
                 echo $category . ',' . $idCount . ',';
                
-                echo " || ";
+                
                 
                 echo $productIdsArray;
 
@@ -127,7 +130,8 @@ function get_products_ids(){
         }
 
     }
-   
+ 
+    echo 'stop';
  
     return $content;
 
