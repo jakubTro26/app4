@@ -117,7 +117,7 @@ function get_products_ids(){
         }
 
     }
-    echo 'kuba';
+    var_dump('kuba');
         
     return $content;
 
