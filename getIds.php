@@ -117,7 +117,7 @@ function get_products_ids(){
                
                 echo $category . ',' . $idCount . ',';
                
-                echo " || ";
+                echo "||";
                 
                 echo "echoing";
 
