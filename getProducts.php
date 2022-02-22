@@ -25,11 +25,10 @@
  foreach($categoryArray as $category=>$id){
      ?>
     
-    <input type="checkbox"><?php echo $category ?>
+    <div><input type="checkbox"><?php echo $category ?></div>
     <?php
  }
 
  ?>
 
     </div>
-?>
