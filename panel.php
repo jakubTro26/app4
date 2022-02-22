@@ -80,6 +80,7 @@ function getValues(){
     }
   });
   doRequest(string);
+  string='';
 }
 
 function doRequest(string) {
