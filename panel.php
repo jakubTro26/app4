@@ -98,7 +98,7 @@ function doRequest(string) {
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         
-        var re = /start.*stop/;
+        var re = /start.*stop/ig;
 
         var result = re.exec(xmlhttp.responseText);
 
