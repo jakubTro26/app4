@@ -119,7 +119,7 @@ function get_products_ids(){
                
                 echo " || ";
                 
-                echo "echoing";
+                echo $productIdsArray;
 
                 curl_close($ch);
 
