@@ -1,6 +1,9 @@
 <?php
 $q = $_REQUEST["q"];
 
-var_dump($q);
+$idArray = explode(',', $q);
+
+
+var_dump($idArray);
 
 ?>
