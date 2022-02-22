@@ -26,7 +26,7 @@ $idArray = explode(',', $q);
 
 
 
-foreach($idArray as $category=>$id)
+foreach($categoryArray as $category=>$id)
 {
     var_dump($id);
 
