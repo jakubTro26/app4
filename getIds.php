@@ -122,7 +122,7 @@ function get_products_ids(){
                
                 
                 
-                echo $productIdsArray;
+               
 
                 curl_close($ch);
 
