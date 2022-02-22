@@ -83,6 +83,8 @@ function get_products_ids(){
 
                 $content  = curl_exec($ch);
 
+                var_dump($content);
+
                 $json=json_decode($content);
 
                // $productIdsArray['category' . $categoryArray[$category]] = array();
@@ -100,7 +102,7 @@ function get_products_ids(){
         }
 
     }
-    var_dump($productIdsArray);
+  
         
     return $content;
 
