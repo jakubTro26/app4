@@ -43,8 +43,8 @@ function get_products_ids(){
 
     foreach($idArray as $category)
         {
-            var_dump($categoryArray);
-          $needle =  array_search('Wróbel' , $categoryArray);
+            
+          $needle =  array_key_exists('Vivaldi' , $categoryArray);
             
           var_dump($needle);
         
