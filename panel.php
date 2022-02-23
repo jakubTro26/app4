@@ -101,61 +101,61 @@ function getValues(){
 
 function doRequest(string) {
   
-    // var xmlhttp = new XMLHttpRequest();
-    // xmlhttp.onreadystatechange = function() {
-    //   if (this.readyState == 4 && this.status == 200) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
         
-    //     var re = /start.*stop/ig;
+        var re = /start.*stop/ig;
 
-    //     var result = re.exec(xmlhttp.responseText);
+        var result = re.exec(xmlhttp.responseText);
 
     
 
-    //     window.array = JSON.parse(xmlhttp.responseText);
+        window.array = JSON.parse(xmlhttp.responseText);
 
 
-    //     handleCount(window.array[0]);
-    //   }
-    // };
-    // xmlhttp.open("GET", "getIds.php?q=" + string, true);
-    // xmlhttp.send();
+        handleCount(window.array[0]);
+      }
+    };
+    xmlhttp.open("GET", "getIds.php?q=" + string, true);
+    xmlhttp.send();
   
 
 
-    $.ajax({
-  type: 'GET',
-  url: "getIds.php?q=" + string,
-  data: {},
-  beforeSend: function(XMLHttpRequest)
-  {
-    //Upload progress
-    XMLHttpRequest.upload.addEventListener("progress", function(evt){
-      if (evt.lengthComputable) {  
-        var percentComplete = evt.loaded / evt.total;
-        //Do something with upload progress
-      }
-    }, false); 
-    //Download progress
-    XMLHttpRequest.addEventListener("progress", function(evt){
-      if (evt.lengthComputable) {  
-        var percentComplete = evt.loaded / evt.total;
-        //Do something with download progress
-      }
-    }, false); 
-  },
-  success: function(data){
-      //    var re = /start.*stop/ig;
+//     $.ajax({
+//   type: 'GET',
+//   url: "getIds.php?q=" + string,
+//   data: {},
+//   beforeSend: function(XMLHttpRequest)
+//   {
+//     //Upload progress
+//     XMLHttpRequest.upload.addEventListener("progress", function(evt){
+//       if (evt.lengthComputable) {  
+//         var percentComplete = evt.loaded / evt.total;
+//         //Do something with upload progress
+//       }
+//     }, false); 
+//     //Download progress
+//     XMLHttpRequest.addEventListener("progress", function(evt){
+//       if (evt.lengthComputable) {  
+//         var percentComplete = evt.loaded / evt.total;
+//         //Do something with download progress
+//       }
+//     }, false); 
+//   },
+//   success: function(data){
+//       //    var re = /start.*stop/ig;
 
-    //     var result = re.exec(xmlhttp.responseText);
+//     //     var result = re.exec(xmlhttp.responseText);
 
     
 
-        window.array = JSON.parse(data);
+//         window.array = JSON.parse(data);
 
 
-         handleCount(window.array[0]);
-  }
-});
+//          handleCount(window.array[0]);
+//   }
+// });
 
 }
 
