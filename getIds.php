@@ -43,6 +43,9 @@ array_push($responseArray,$responseString);
 array_push($responseArray,$productIdsArray);
 
 
+echo json_encode($responseArray);
+
+
 function get_products_ids(){
 
 
