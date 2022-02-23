@@ -1,7 +1,9 @@
 <?php
 
 
-   
+   global $responseArray;
+
+   $responseArray=array();
 
  $categoryArray['Kocot Kids Nowy']=801;
  $categoryArray['Comad']=712;
@@ -36,7 +38,10 @@ $idArray = explode(',', $q);
 get_products_ids();
 
 
-echo $responseString;
+array_push($responseArray,$responseString);
+
+array_push($responseArray,$productIdsArray);
+
 
 function get_products_ids(){
 
