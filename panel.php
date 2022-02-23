@@ -106,7 +106,7 @@ function doRequest(string) {
         var ret = ret.replace('stop','');
         window.response=ret;
         
-        handleCount();
+        handleCount(window.response);
       }
     };
     xmlhttp.open("GET", "getIds.php?q=" + string, true);
@@ -115,7 +115,9 @@ function doRequest(string) {
 }
 
 
-function handleCount(){
+function handleCount(e){
+
+  var countArray = e.split(',');
 
 
 }
