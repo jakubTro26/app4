@@ -117,11 +117,13 @@ function doRequest(string) {
 
 function handleCount(e){
 
-  var countArray = e.split(',');
+  window.countArray = e.split(',');
 
-  for(var i=0; i< countArray.length ;i+=2){
+  var count = window.countArray;
 
-    console.log(countArray[i]);
+  for(var i=0; i< count.length ;i+=2){
+
+    console.log(count[i]);
   }
 
 }
