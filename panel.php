@@ -119,6 +119,8 @@ function handleCount(e){
 
   window.countArray = e.split(',');
 
+  console.log(window.countArray);
+
   document.querySelectorAll('.kategorie input').forEach(function(e){
     if(e.checked){
         for(var i=0; i< window.countArray.length ;i++){
