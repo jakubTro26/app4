@@ -18,3 +18,8 @@
 .count{
     display: inline-block;
 }
+
+.btn-success{
+    position: relative;
+    left:63px;
+}
