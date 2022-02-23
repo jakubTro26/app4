@@ -122,7 +122,7 @@ function handleCount(e){
 
   window.countArray = e.split(',');
 
-  document.querySelector('.btn-success').style.display="block";
+  document.querySelector('.btn-success').style.display="inline-block";
 
   console.log(window.countArray);
 
