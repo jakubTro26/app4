@@ -123,7 +123,7 @@ function handleCount(e){
     if(e.checked){
         for(var i=0; i< window.countArray.length ;i++){
                     if(e.nextElementSibling.innerText==window.countArray[i]){
-                            document.querySelector('.kategorie input').nextSibling.nextSibling.innerText=window.countArray[i+1];
+                            e.nextSibling.nextSibling.innerText=window.countArray[i+1];
                         }
             
              }
