@@ -74,7 +74,7 @@ $i =0;
    Pobierz produkty
    </div>
    <button style="display:none;" type="button" class="btn btn-success">Liczba produktów</button>
-   <button style="display:none;" type="button" class="btn btn-primary id">Pobierz Varianty / Generuj plik</button>
+   <button style="display:none;" type="button" class="id btn btn-primary">Pobierz Varianty / Generuj plik</button>
  </div>
 
 
