@@ -116,7 +116,7 @@ function doRequest(string) {
         window.array = JSON.parse(xmlhttp.responseText);
 
 
-        handleCount(window.response);
+       // handleCount(window.response);
       }
     };
     xmlhttp.open("GET", "getIds.php?q=" + string, true);
