@@ -119,12 +119,17 @@ function handleCount(e){
 
   window.countArray = e.split(',');
 
-  var count = window.countArray;
+  document.querySelectorAll('.kategorie input').forEach(function(e){
+    if(e.checked){
+        for(var i=0; i< window.countArray.length ;i++){
+                    if(e.nextElementSibling.innerText==window.countArray[i]){
+                            document.querySelector('.kategorie input').nextSibling.nextSibling.innerText=window.countArray[i+1];
+                        }
+            
+             }
 
-  for(var i=0; i< count.length ;i+=2){
-
-    console.log(count[i]);
-  }
+    }
+})
 
 }
 </script>
