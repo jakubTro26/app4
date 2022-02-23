@@ -84,7 +84,8 @@ $i =0;
 function getValues(){
   document.querySelectorAll('.kategorie input').forEach(function(e){
     if(e.checked){
-   string+=e.parentElement.innerText;
+   string+=e.nextElementSibling.innerText
+;
    string+=',';
     }
   });
