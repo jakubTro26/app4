@@ -113,6 +113,8 @@ function doRequest(string) {
 
         window.array = JSON.parse(xmlhttp.responseText);
 
+        console.log(window.array);
+
 
         handleCount(window.array[0]);
       }
