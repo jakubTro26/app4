@@ -74,11 +74,11 @@ $i =0;
    Pobierz produkty
    </div>
    <button style="display:none;" type="button" class="btn btn-success">Liczba produktów</button>
-   <button style="display:none;" type="button" class="id btn btn-primary" onclick="getVariants()>Pobierz Warianty / Generuj plik</button>
+   <button style="display:none;" type="button" class="id btn btn-primary" onclick="getVariants()">Pobierz Warianty / Generuj plik</button>
  </div>
 
 
- <script
+ <script>
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
