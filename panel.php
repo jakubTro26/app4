@@ -61,7 +61,7 @@ $i =0;
   $i++;
      ?>
     
-    <div class="in"><input type="checkbox"><div><?php echo $category ?></div><div class="count count<?php echo $i; ?>"></div></div>
+    <div class="in"><input type="checkbox"><div class="nazwa"><?php echo $category ?></div><div class="count count<?php echo $i; ?>"></div></div>
     <?php
  }
 
