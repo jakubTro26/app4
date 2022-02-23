@@ -74,7 +74,7 @@ $i =0;
    Pobierz produkty
    </div>
    <button style="display:none;" type="button" class="btn btn-success">Liczba produktów</button>
-   <button style="display:none;" type="button" class="id btn btn-primary">Pobierz Varianty / Generuj plik</button>
+   <button style="display:none;" type="button" class="id btn btn-primary" onclick="getVariants()>Pobierz Warianty / Generuj plik</button>
  </div>
 
 
@@ -85,6 +85,31 @@ $i =0;
 
 
  <script>
+
+
+
+function getVariants(){
+  
+  doVariantRequest();
+
+}
+
+function doVariantRequest(){
+
+  var array=window.array;
+
+  var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        
+   
+      }
+    };
+    xmlhttp.open("GET", "getVariants.php?q=" + array, true);
+    xmlhttp.send();
+
+}
+
 
    var string="";
 function getValues(){
