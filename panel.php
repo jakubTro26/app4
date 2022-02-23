@@ -96,7 +96,7 @@ function getVariants(){
 
 function doVariantRequest(){
 
-  var array=window.array;
+  
 
   var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -106,7 +106,7 @@ function doVariantRequest(){
       }
     };
     xmlhttp.open("POST", "getVariants.php?q=", true);
-    xmlhttp.send(array);
+    xmlhttp.send(window.array);
 
 }
 
