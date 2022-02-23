@@ -113,9 +113,7 @@ function doRequest(string) {
 
         var reg2 = /array.*/ig;
 
-        var result2 = reg2.exec(xmlhttp.responseText);
-
-        window.response2=result2;
+        window.array = JSON.parse(xmlhttp.responseText);
 
 
         handleCount(window.response);
