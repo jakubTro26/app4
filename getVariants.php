@@ -1,7 +1,7 @@
 <?php 
-$q = $_REQUEST["q"];
+$q = json_decode($_REQUEST["q"]);
 
 
-echo $q;
+var_dump($q);
 
 ?>
