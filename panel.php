@@ -69,11 +69,12 @@ $i =0;
 
     </div>
 
- <div  class="generuj btn btn-primary"  onclick="getValues()">
- Generuj plik XML
+ <div class="buttons">
+   <div  class="generuj btn btn-primary"  onclick="getValues()">
+   Generuj plik XML
+   </div>
+   <button type="button" class="btn btn-success">Liczba produktów</button>
  </div>
-
- <button type="button" class="btn btn-success">Liczba produktów</button>
 
 
 
