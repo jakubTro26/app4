@@ -124,7 +124,7 @@ function handleCount(e){
   window.countArray = e.split(',');
 
   document.querySelector('.btn-success').style.display="inline-block";
-  document.querySelector('.id').style.display="inline-block";
+  document.querySelector('.id').style.display="block";
 
   console.log(window.countArray);
 
