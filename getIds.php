@@ -36,13 +36,12 @@ $idArray = explode(',', $q);
 get_products_ids();
 
 
-echo 'array';
-var_dump($productIdsArray);
+echo $responseString;
 
 function get_products_ids(){
 
 
-    echo 'start';
+    
 
     global $categoryArray;
 
@@ -51,6 +50,8 @@ function get_products_ids(){
     global $idArray;
 
     global $idCount;
+
+    global $responseString;
 
     $idCount = 0;
 
@@ -120,7 +121,7 @@ function get_products_ids(){
 
               
                
-                echo $category . ',' . $idCount . ',';
+                $responseString .= $category . ',' . $idCount . ',';
                
                 
                 
@@ -133,7 +134,7 @@ function get_products_ids(){
 
     }
  
-    echo 'stop';
+    
  
     return $content;
 
