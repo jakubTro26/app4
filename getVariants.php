@@ -1,5 +1,5 @@
 <?php 
-$result = $_GET['data'];
+$result = $_POST['data'];
 echo $result;
 
 ?>
