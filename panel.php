@@ -105,8 +105,8 @@ function doVariantRequest(){
    
       }
     };
-    xmlhttp.open("GET", "getVariants.php?q=" + array, true);
-    xmlhttp.send();
+    xmlhttp.open("POST", "getVariants.php?q=", true);
+    xmlhttp.send(array);
 
 }
 
