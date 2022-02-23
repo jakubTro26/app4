@@ -121,7 +121,7 @@ function handleCount(e){
 
   for(var i=0; i< countArray.length ;i+=2){
 
-    console.log(countArray[$i]);
+    console.log(countArray[i]);
   }
 
 }
