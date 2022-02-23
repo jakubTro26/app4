@@ -119,6 +119,10 @@ function handleCount(e){
 
   var countArray = e.split(',');
 
+  for(var i=0; i< countArray.length ;i+=2){
+
+    console.log(countArray[$i]);
+  }
 
 }
 </script>
