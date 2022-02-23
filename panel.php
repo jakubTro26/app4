@@ -78,7 +78,10 @@ $i =0;
  </div>
 
 
-
+ <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
 
 
  <script>
@@ -98,30 +101,62 @@ function getValues(){
 
 function doRequest(string) {
   
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
+    // var xmlhttp = new XMLHttpRequest();
+    // xmlhttp.onreadystatechange = function() {
+    //   if (this.readyState == 4 && this.status == 200) {
         
-        var re = /start.*stop/ig;
+    //     var re = /start.*stop/ig;
 
-        var result = re.exec(xmlhttp.responseText);
+    //     var result = re.exec(xmlhttp.responseText);
 
-       // var ret = result[0].replace('start','');
-        //var ret = ret.replace('stop','');
-        //window.response=ret;
-        
+    
 
-        //var reg2 = /array.*/ig;
-
-        window.array = JSON.parse(xmlhttp.responseText);
+    //     window.array = JSON.parse(xmlhttp.responseText);
 
 
-        handleCount(window.array[0]);
-      }
-    };
-    xmlhttp.open("GET", "getIds.php?q=" + string, true);
-    xmlhttp.send();
+    //     handleCount(window.array[0]);
+    //   }
+    // };
+    // xmlhttp.open("GET", "getIds.php?q=" + string, true);
+    // xmlhttp.send();
   
+
+
+    $.ajax({
+  type: 'GET',
+  url: "getIds.php?q=" + string,
+  data: {},
+  beforeSend: function(XMLHttpRequest)
+  {
+    //Upload progress
+    XMLHttpRequest.upload.addEventListener("progress", function(evt){
+      if (evt.lengthComputable) {  
+        var percentComplete = evt.loaded / evt.total;
+        //Do something with upload progress
+      }
+    }, false); 
+    //Download progress
+    XMLHttpRequest.addEventListener("progress", function(evt){
+      if (evt.lengthComputable) {  
+        var percentComplete = evt.loaded / evt.total;
+        //Do something with download progress
+      }
+    }, false); 
+  },
+  success: function(data){
+      //    var re = /start.*stop/ig;
+
+    //     var result = re.exec(xmlhttp.responseText);
+
+    
+
+        window.array = JSON.parse(data);
+
+
+         handleCount(window.array[0]);
+  }
+});
+
 }
 
 
