@@ -35,6 +35,8 @@ $idArray = explode(',', $q);
 
 get_products_ids();
 
+
+echo 'array';
 var_dump($productIdsArray);
 
 function get_products_ids(){

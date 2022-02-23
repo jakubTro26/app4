@@ -110,6 +110,14 @@ function doRequest(string) {
         var ret = ret.replace('stop','');
         window.response=ret;
         
+
+        var reg2 = /array.*/ig;
+
+        var result2 = reg2.exec(xmlhttp.responseText);
+
+        window.response2=result2;
+
+
         handleCount(window.response);
       }
     };
