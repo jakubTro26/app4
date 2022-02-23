@@ -7,9 +7,10 @@
     padding:20px;
 }
 
-.in div{
-   
-        padding: 10px;
-        display: inline;
+.nazwa{
+
+    padding: 5px;
+    display: inline-block;
+    width:300px;
     
 }
