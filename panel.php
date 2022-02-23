@@ -71,9 +71,10 @@ $i =0;
 
  <div class="buttons">
    <div  class="generuj btn btn-primary"  onclick="getValues()">
-   Generuj plik XML
+   Pobierz produkty
    </div>
    <button style="display:none;" type="button" class="btn btn-success">Liczba produktów</button>
+   <button style="display:none;" type="button" class="btn btn-primary id">Pobierz Varianty / Generuj plik</button>
  </div>
 
 
@@ -123,6 +124,7 @@ function handleCount(e){
   window.countArray = e.split(',');
 
   document.querySelector('.btn-success').style.display="inline-block";
+  document.querySelector('.id').style.display="inline-block";
 
   console.log(window.countArray);
 
