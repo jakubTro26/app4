@@ -23,3 +23,11 @@
     position: relative;
     left:63px;
 }
+
+
+.id{
+    position: relative;
+    display: block;
+    /* top: 74px; */
+    left: 210px;
+}
