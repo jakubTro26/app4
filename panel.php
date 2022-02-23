@@ -73,6 +73,7 @@ $i =0;
  Generuj plik XML
  </div>
 
+ <button type="button" class="btn btn-success">Liczba produktów</button>
 
 
 
