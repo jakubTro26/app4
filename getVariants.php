@@ -1,5 +1,7 @@
 <?php 
-$result = $_POST['data'];
+$result = json_decode($_POST['data']);
+
+
 echo $result;
 
 ?>
