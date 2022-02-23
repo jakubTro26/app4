@@ -107,7 +107,7 @@ function get_products_ids(){
 
                $productIdsArray[$categoryString] = array();
 
-              
+              $idCount=0;
 
                 foreach ($json->products as $product){
                     $idCount++;
