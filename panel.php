@@ -106,12 +106,12 @@ function doRequest(string) {
 
         var result = re.exec(xmlhttp.responseText);
 
-        var ret = result[0].replace('start','');
-        var ret = ret.replace('stop','');
-        window.response=ret;
+       // var ret = result[0].replace('start','');
+        //var ret = ret.replace('stop','');
+        //window.response=ret;
         
 
-        var reg2 = /array.*/ig;
+        //var reg2 = /array.*/ig;
 
         window.array = JSON.parse(xmlhttp.responseText);
 
