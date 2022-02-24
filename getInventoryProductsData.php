@@ -46,7 +46,7 @@
   //  var_dump($productIdsArray);
 
 
-    var_dump($productIdsArray);
+   
 
 
     $productData = get_products_data("https://api.baselinker.com/connector.php",$productIdsArray);
@@ -196,6 +196,9 @@ $response = curl_exec($curl);
 
  function get_products_data($url,$ids) {
 
+
+
+    var_dump($ids);
 
         global $producentArray;
         global $categoryArray;
