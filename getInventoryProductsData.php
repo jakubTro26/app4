@@ -363,7 +363,7 @@ $response = curl_exec($curl);
                           //var_dump($producent);
 
 
-                            $de1en = {'description_extra1|en'};
+                          
 
                           $product->appendChild( $dom->createElement('producent', $producent));
                           $product->appendChild( $dom->createElement('sku', $variants[$variants_ids[$k]]->sku) );
@@ -382,7 +382,7 @@ $response = curl_exec($curl);
                           $product->appendChild( $dom->createElement('priceUK',$PHPcontent->products->$property->prices->{'79'} ) );
                           $product->appendChild( $dom->createElement('description',$PHPcontent->products->$property->text_fields->description ) );
                            $product->appendChild( $dom->createElement('description_extra1',$PHPcontent->products->$property->text_fields->description_extra1 ) );
-                           $product->appendChild( $dom->createElement('description_extra1|en',$PHPcontent->products->$property->text_fields->$de1en ) );
+                           $product->appendChild( $dom->createElement('description_extra1|en',$PHPcontent->products->$property->text_fields->{"description_extra1|en"} ) );
                         //   $product->appendChild( $dom->createElement('description_extra1|de',$PHPcontent->products->$property->text_fields->{'description_extra1|de'} ) );
                         //   $product->appendChild( $dom->createElement('description_extra1|fr',$PHPcontent->products->$property->text_fields->{'description_extra1|fr'} ) );
                         //   $product->appendChild( $dom->createElement('description_extra1|es',$PHPcontent->products->$property->text_fields->{'description_extra1|es'} ) );
