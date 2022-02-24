@@ -16,11 +16,14 @@ $dataArray = (array) $data[1];
 
 $productData = get_products_data("https://api.baselinker.com/connector.php",$dataArray);
 
-
+if($PHPcontent->status=="ERROR"){
+                       
 var_dump($error);
 var_dump($errorCode);
 var_dump($errorMessage);
 
+
+}
 function get_products_data($url,$ids) {
 
     global $error;
@@ -28,6 +31,7 @@ function get_products_data($url,$ids) {
     global $errorMessage;
     global $producentArray;
     global $categoryArray;
+    global $PHPcontent;
     $keys =   array_keys($ids);
 
     $dom = new DOMDocument('1.0','UTF-8');
@@ -101,14 +105,7 @@ function get_products_data($url,$ids) {
 
                     
 
-                    if($PHPcontent->status=="ERROR"){
-                       
-
-                        $error=$PHPcontent->status;
-                        $errorCode=$PHPcontent->error_code;
-                        $errorMessage=$PHPcontent->error_message;
-                       
-                    }
+                  
 
                     $property=$array1[$o];
 
