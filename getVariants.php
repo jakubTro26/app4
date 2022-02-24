@@ -17,7 +17,6 @@ $dataArray = (array) $data[1];
 $productData = get_products_data("https://api.baselinker.com/connector.php",$dataArray);
 
 
-var_dump();
 
 
 function get_products_data($url,$ids) {
@@ -93,6 +92,10 @@ function get_products_data($url,$ids) {
                     
 
                     $PHPcontent = json_decode($content);
+
+
+
+                    var_dump($PHPcontent);
 
                     $property=$array1[$o];
 
