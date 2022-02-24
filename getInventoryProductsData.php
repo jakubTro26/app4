@@ -198,7 +198,7 @@ $response = curl_exec($curl);
 
 
 
-    var_dump($ids);
+   // var_dump($ids);
 
         global $producentArray;
         global $categoryArray;
