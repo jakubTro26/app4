@@ -363,7 +363,7 @@ $response = curl_exec($curl);
                           //var_dump($producent);
 
 
-                            $de1en = 'description_extra1|en';
+                            $de1en = {'description_extra1|en'};
 
                           $product->appendChild( $dom->createElement('producent', $producent));
                           $product->appendChild( $dom->createElement('sku', $variants[$variants_ids[$k]]->sku) );
