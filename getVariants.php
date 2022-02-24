@@ -7,5 +7,7 @@ $data = json_decode($request_body);
 
 $idData = $data[1];
 
+$idData = json_decode($idData);
+
 var_dump($idData);
 ?>
