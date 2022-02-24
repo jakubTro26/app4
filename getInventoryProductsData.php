@@ -303,7 +303,7 @@ $response = curl_exec($curl);
 
 
                             
-                           var_dump($PHPcontent->products);
+                          // var_dump($PHPcontent->products);
                            
 
                             // foreach($PHPcontent->products->$property->variants as $variant)
@@ -429,7 +429,7 @@ $response = curl_exec($curl);
         //echo '<xmp>'. $dom->saveXML() .'</xmp>';
         $written = $dom->save('/home/master/applications/ancccjahdh/public_html/result.xml') or die('XML Create Error');
 
-      
+        var_dump($written);
 
         $filepathname = "../result.xml";
         $target = "1";
