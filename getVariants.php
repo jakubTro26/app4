@@ -21,7 +21,9 @@ $productData = get_products_data("https://api.baselinker.com/connector.php",$dat
 
 function get_products_data($url,$ids) {
 
-
+    global $error;
+    global $errorCode;
+    global $errorMessage;
     global $producentArray;
     global $categoryArray;
     $keys =   array_keys($ids);
@@ -95,7 +97,11 @@ function get_products_data($url,$ids) {
 
 
 
-                    var_dump($PHPcontent);
+                    
+
+                    if($PHPcontent->status=="ERROR"){
+                        echo 'nastąpił error';
+                    }
 
                     $property=$array1[$o];
 
