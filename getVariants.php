@@ -100,7 +100,7 @@ function get_products_data($url,$ids) {
                     
 
                     if($PHPcontent->status=="ERROR"){
-                        echo 'nastąpił error';
+                       var_dump($PHPcontent);
                     }
 
                     $property=$array1[$o];
