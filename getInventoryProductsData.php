@@ -392,7 +392,7 @@ $response = curl_exec($curl);
                           $product->appendChild( $dom->createElement('image1',$PHPcontent->products->$property->images->{'1'} ) );
                           $product->appendChild( $dom->createElement('image2',$PHPcontent->products->$property->images->{'2'} ) );
                           $product->appendChild( $dom->createElement('image3',$PHPcontent->products->$property->images->{'3'} ) );
-                          $product->appendChild( $dom->createElement('stock',$PHPcontent->products->$property->stock->bl_89;
+                          $product->appendChild( $dom->createElement('stock',$PHPcontent->products->$property->stock->bl_89));
                          //   var_dump($variants_ids[$k]);
 
                          
