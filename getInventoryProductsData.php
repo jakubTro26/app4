@@ -457,7 +457,7 @@ $response = curl_exec($curl);
         //echo '<xmp>'. $dom->saveXML() .'</xmp>';
         $written = $dom->save('/home/master/applications/ancccjahdh/public_html/result.xml') or die('XML Create Error');
 
-      //  var_dump($written);
+        var_dump($written);
 
         $filepathname = "../result.xml";
         $target = "1";
