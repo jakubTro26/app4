@@ -7,5 +7,5 @@ $data = json_decode($request_body);
 
 
 
-var_dump($data);
+var_dump($data[1]);
 ?>
