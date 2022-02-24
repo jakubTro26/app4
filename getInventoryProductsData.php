@@ -303,7 +303,7 @@ $response = curl_exec($curl);
 
 
                             
-                           var_dump($PHPcontent->products);
+                         //  var_dump($PHPcontent->products);
                            
 
                             // foreach($PHPcontent->products->$property->variants as $variant)
