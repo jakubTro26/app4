@@ -5,6 +5,9 @@ $request_body = file_get_contents('php://input');
 
 $data = json_decode($request_body);
 
-var_dump($data);
+foreach($data as $el => $element){
+var_dump($el);
+
+}
 
 ?>
