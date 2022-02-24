@@ -17,7 +17,7 @@ $dataArray = (array) $data[1];
 $productData = get_products_data("https://api.baselinker.com/connector.php",$dataArray);
 
 
-
+var_dump();
 
 
 function get_products_data($url,$ids) {
@@ -245,11 +245,11 @@ function get_products_data($url,$ids) {
     }
 
     //echo '<xmp>'. $dom->saveXML() .'</xmp>';
-    $written = $dom->save('/home/master/applications/ancccjahdh/public_html/result.xml') or die('XML Create Error');
+    $written = $dom->save('/home/master/applications/ancccjahdh/public_html/app/result.xml') or die('XML Create Error');
 
   
 
-    $filepathname = "../result.xml";
+    $filepathname = "./result.xml";
     $target = "1";
     $newline = $contentDTD;
     

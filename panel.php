@@ -11,7 +11,7 @@
 
   <meta property="og:title" content="XML generation panel">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:description" content="XML generator">
   <meta property="og:image" content="image.png">
 
   
