@@ -116,9 +116,9 @@ function doVariantRequest(){
        // Download progress
        xhr.addEventListener("progress", function(evt){
            if (evt.lengthComputable) {
-               var percentComplete = evt.loaded / evt.total;
+                 
                // Do something with download progress
-               console.log(percentComplete);
+               console.log(evt.loaded);
            }
        }, false);
 
