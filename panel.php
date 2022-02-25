@@ -108,6 +108,21 @@ function doVariantRequest(){
     xmlhttp.open("POST", "getVariants.php", true);
     xmlhttp.send(body);
 
+
+    xmlhttp.addEventListener('loadstart', handleEvent);
+    xmlhttp.addEventListener('load', handleEvent);
+    xmlhttp.addEventListener('loadend', handleEvent);
+    xmlhttp.addEventListener('progress', handleEvent);
+    xmlhttp.addEventListener('error', handleEvent);
+    xmlhttp.addEventListener('abort', handleEvent);
+
+    function handleEvent(e) {
+    log.textContent = log.textContent + `${e.type}: ${e.loaded} bytes transferred\n`;
+}
+
+
+
+
 }
 
 
