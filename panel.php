@@ -112,7 +112,7 @@ function doVariantRequest(){
     xmlhttp.addEventListener('loadstart', handleEvent);
     xmlhttp.addEventListener('load', handleEvent);
     xmlhttp.addEventListener('loadend', handleEvent);
-    xmlhttp.upload.addEventListener('progress', handleEvent);
+    xmlhttp.download.addEventListener('progress', handleEvent);
     xmlhttp.addEventListener('error', handleEvent);
     xmlhttp.addEventListener('abort', handleEvent);
 
