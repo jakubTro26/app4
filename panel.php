@@ -118,7 +118,7 @@ function doVariantRequest(){
            if (evt.lengthComputable) {
                  
                // Do something with download progress
-               console.log(evt.loaded);
+               console.log(evt.total);
            }
        }, false);
 
