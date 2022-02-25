@@ -98,6 +98,15 @@ function doVariantRequest(){
 
   var body =JSON.stringify(window.array)
 
+
+    xmlhttp.addEventListener('loadstart', handleEvent);
+    xmlhttp.addEventListener('load', handleEvent);
+    xmlhttp.addEventListener('loadend', handleEvent);
+    xmlhttp.addEventListener('progress', handleEvent);
+    xmlhttp.addEventListener('error', handleEvent);
+    xmlhttp.addEventListener('abort', handleEvent);
+
+
   var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
@@ -109,12 +118,7 @@ function doVariantRequest(){
     xmlhttp.send(body);
 
 
-    xmlhttp.addEventListener('loadstart', handleEvent);
-    xmlhttp.addEventListener('load', handleEvent);
-    xmlhttp.addEventListener('loadend', handleEvent);
-    xmlhttp.addEventListener('progress', handleEvent);
-    xmlhttp.addEventListener('error', handleEvent);
-    xmlhttp.addEventListener('abort', handleEvent);
+
 
     function handleEvent(e) {
     
