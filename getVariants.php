@@ -10,7 +10,7 @@ $dataArray = (array) $data[1];
 
 
 
-var_dump($dataArray);
+
 
 
 
@@ -173,6 +173,9 @@ function get_products_data($url,$ids) {
                         $variants_ids = array_keys(get_object_vars($PHPcontent->products->$property->variants));
 
                       // var_dump($variants_ids);
+
+
+                            var_dump(count(get_object_vars($PHPcontent->products->$property->variants)));
 
                    for($k=0;$k<count(get_object_vars($PHPcontent->products->$property->variants));$k++){
                     
