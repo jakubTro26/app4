@@ -117,7 +117,8 @@ function doVariantRequest(){
     xmlhttp.addEventListener('abort', handleEvent);
 
     function handleEvent(e) {
-    log.textContent = log.textContent + `${e.type}: ${e.loaded} bytes transferred\n`;
+    
+    console.log(e);
 }
 
 
