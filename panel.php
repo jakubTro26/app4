@@ -100,33 +100,63 @@ function doVariantRequest(){
 
 
 
+  $.ajax({
+    xhr: function() {
+        var xhr = new window.XMLHttpRequest();
 
+        // Upload progress
+        xhr.upload.addEventListener("progress", function(evt){
+            if (evt.lengthComputable) {
+                var percentComplete = evt.loaded / evt.total;
+                //Do something with upload progress
+                console.log(percentComplete);
+            }
+       }, false);
 
-  var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
+       // Download progress
+       xhr.addEventListener("progress", function(evt){
+           if (evt.lengthComputable) {
+               var percentComplete = evt.loaded / evt.total;
+               // Do something with download progress
+               console.log(percentComplete);
+           }
+       }, false);
+
+       return xhr;
+    },
+    type: 'POST',
+    url: "getVariants.php",
+    data: body,
+    success: function(data){
+        // Do something success-ish
+    }
+});
+
+//   var xmlhttp = new XMLHttpRequest();
+//     xmlhttp.onreadystatechange = function() {
+//       if (this.readyState == 4 && this.status == 200) {
         
    
-      }
-    };
+//       }
+//     };
 
-    xmlhttp.addEventListener('loadstart', handleEvent);
-    xmlhttp.addEventListener('load', handleEvent);
-    xmlhttp.addEventListener('loadend', handleEvent);
-    xmlhttp.addEventListener('progress', handleEvent);
-    xmlhttp.addEventListener('error', handleEvent);
-    xmlhttp.addEventListener('abort', handleEvent);
+//     xmlhttp.addEventListener('loadstart', handleEvent);
+//     xmlhttp.addEventListener('load', handleEvent);
+//     xmlhttp.addEventListener('loadend', handleEvent);
+//     xmlhttp.addEventListener('progress', handleEvent);
+//     xmlhttp.addEventListener('error', handleEvent);
+//     xmlhttp.addEventListener('abort', handleEvent);
 
-    xmlhttp.open("POST", "getVariants.php", true);
-    xmlhttp.send(body);
-
-
+//     xmlhttp.open("POST", "getVariants.php", true);
+//     xmlhttp.send(body);
 
 
-    function handleEvent(e) {
+
+
+//     function handleEvent(e) {
     
-    console.log(e);
-}
+//     console.log(e);
+// }
 
 
 
