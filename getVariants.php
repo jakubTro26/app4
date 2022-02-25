@@ -10,7 +10,7 @@ $dataArray = (array) $data[1];
 
 
 
-
+var_dump($dataArray);
 
 
 
