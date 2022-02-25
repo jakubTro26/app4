@@ -99,12 +99,7 @@ function doVariantRequest(){
   var body =JSON.stringify(window.array)
 
 
-    xmlhttp.addEventListener('loadstart', handleEvent);
-    xmlhttp.addEventListener('load', handleEvent);
-    xmlhttp.addEventListener('loadend', handleEvent);
-    xmlhttp.addEventListener('progress', handleEvent);
-    xmlhttp.addEventListener('error', handleEvent);
-    xmlhttp.addEventListener('abort', handleEvent);
+
 
 
   var xmlhttp = new XMLHttpRequest();
@@ -114,6 +109,14 @@ function doVariantRequest(){
    
       }
     };
+
+    xmlhttp.addEventListener('loadstart', handleEvent);
+    xmlhttp.addEventListener('load', handleEvent);
+    xmlhttp.addEventListener('loadend', handleEvent);
+    xmlhttp.addEventListener('progress', handleEvent);
+    xmlhttp.addEventListener('error', handleEvent);
+    xmlhttp.addEventListener('abort', handleEvent);
+
     xmlhttp.open("POST", "getVariants.php", true);
     xmlhttp.send(body);
 
