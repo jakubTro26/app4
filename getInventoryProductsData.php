@@ -421,6 +421,18 @@ $response = curl_exec($curl);
                           $product->appendChild( $dom->createElement('image3',$PHPcontent->products->$property->images->{'3'} ) );
                           $product->appendChild( $dom->createElement('stock',$PHPcontent->products->$property->stock->bl_89));
                           $product->appendChild( $dom->createElement('Rozmiar',$PHPcontent->products->$property->text_fields->features->Rozmiar ) );
+                          $product->appendChild( $dom->createElement('Size',$PHPcontent->products->$property->text_fields->{'features|en'}->Size ) );
+                          $product->appendChild( $dom->createElement('Colour',$PHPcontent->products->$property->text_fields->{'features|en'}->Colour ) );
+                          $product->appendChild( $dom->createElement('Große',$PHPcontent->products->$property->text_fields->{'features|de'}->Große ) );
+                          $product->appendChild( $dom->createElement('Farbe',$PHPcontent->products->$property->text_fields->{'features|de'}->Farbe ) );
+                          $product->appendChild( $dom->createElement('Taille',$PHPcontent->products->$property->text_fields->{'features|fr'}->Taille ) );
+                          $product->appendChild( $dom->createElement('Couleur',$PHPcontent->products->$property->text_fields->{'features|fr'}->Couleur ) );
+                          $product->appendChild( $dom->createElement('Tamaño',$PHPcontent->products->$property->text_fields->{'features|es'}->Tamaño ) );
+                          $product->appendChild( $dom->createElement('Color',$PHPcontent->products->$property->text_fields->{'features|es'}->Color ) );
+                          $product->appendChild( $dom->createElement('Misura',$PHPcontent->products->$property->text_fields->{'features|it'}->Misura ) );
+                          $product->appendChild( $dom->createElement('Colore',$PHPcontent->products->$property->text_fields->{'features|it'}->Colore ) );
+                          $product->appendChild( $dom->createElement('Grootte',$PHPcontent->products->$property->text_fields->{'features|it'}->Grootte ) );
+                          $product->appendChild( $dom->createElement('Kleur',$PHPcontent->products->$property->text_fields->{'features|it'}->Kleur ) );
                          //   var_dump($variants_ids[$k]);
 
                          
