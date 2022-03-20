@@ -12,6 +12,9 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($apiParams));
 $response = curl_exec($curl);
 
 
-echo json_encode($response);
+echo '<pre>';
+var_dump($response);
+echo '</pre>';
+
 
 ?>
