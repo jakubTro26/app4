@@ -1,776 +1,608 @@
-array(16) {
-  ["category801"]=&gt;
-  array(16) {
-    [0]=&gt;
-    int(22038899)
-    [1]=&gt;
-    int(22038912)
-    [2]=&gt;
-    int(22038985)
-    [3]=&gt;
-    int(22039046)
-    [4]=&gt;
-    int(22039107)
-    [5]=&gt;
-    int(22039180)
-    [6]=&gt;
-    int(22039193)
-    [7]=&gt;
-    int(22120389)
-    [8]=&gt;
-    int(22120552)
-    [9]=&gt;
-    int(22593302)
-    [10]=&gt;
-    int(22593305)
-    [11]=&gt;
-    int(22593872)
-    [12]=&gt;
-    int(22594716)
-    [13]=&gt;
-    int(22594741)
-    [14]=&gt;
-    int(22594757)
-    [15]=&gt;
-    int(22594760)
-  }
-  ["category712"]=&gt;
-  array(74) {
-    [0]=&gt;
-    int(21819882)
-    [1]=&gt;
-    int(21819891)
-    [2]=&gt;
-    int(21819901)
-    [3]=&gt;
-    int(21819923)
-    [4]=&gt;
-    int(21819933)
-    [5]=&gt;
-    int(21819939)
-    [6]=&gt;
-    int(21819962)
-    [7]=&gt;
-    int(21819969)
-    [8]=&gt;
-    int(21819972)
-    [9]=&gt;
-    int(21819977)
-    [10]=&gt;
-    int(21819980)
-    [11]=&gt;
-    int(21819989)
-    [12]=&gt;
-    int(21820006)
-    [13]=&gt;
-    int(21820015)
-    [14]=&gt;
-    int(21820027)
-    [15]=&gt;
-    int(21820029)
-    [16]=&gt;
-    int(21820031)
-    [17]=&gt;
-    int(21820033)
-    [18]=&gt;
-    int(21820036)
-    [19]=&gt;
-    int(21820038)
-    [20]=&gt;
-    int(21820040)
-    [21]=&gt;
-    int(21820043)
-    [22]=&gt;
-    int(21820044)
-    [23]=&gt;
-    int(21820046)
-    [24]=&gt;
-    int(22155216)
-    [25]=&gt;
-    int(22155227)
-    [26]=&gt;
-    int(22155415)
-    [27]=&gt;
-    int(22165185)
-    [28]=&gt;
-    int(22165212)
-    [29]=&gt;
-    int(22165242)
-    [30]=&gt;
-    int(22165409)
-    [31]=&gt;
-    int(22165536)
-    [32]=&gt;
-    int(22167010)
-    [33]=&gt;
-    int(22169491)
-    [34]=&gt;
-    int(22169627)
-    [35]=&gt;
-    int(22169914)
-    [36]=&gt;
-    int(22170082)
-    [37]=&gt;
-    int(22170856)
-    [38]=&gt;
-    int(22174642)
-    [39]=&gt;
-    int(22174826)
-    [40]=&gt;
-    int(22177083)
-    [41]=&gt;
-    int(22177140)
-    [42]=&gt;
-    int(22177261)
-    [43]=&gt;
-    int(22177307)
-    [44]=&gt;
-    int(22177327)
-    [45]=&gt;
-    int(22177364)
-    [46]=&gt;
-    int(22177381)
-    [47]=&gt;
-    int(22177408)
-    [48]=&gt;
-    int(22177437)
-    [49]=&gt;
-    int(22177508)
-    [50]=&gt;
-    int(22177520)
-    [51]=&gt;
-    int(22177541)
-    [52]=&gt;
-    int(22177569)
-    [53]=&gt;
-    int(22177575)
-    [54]=&gt;
-    int(22177647)
-    [55]=&gt;
-    int(22177751)
-    [56]=&gt;
-    int(22177816)
-    [57]=&gt;
-    int(22177843)
-    [58]=&gt;
-    int(22177934)
-    [59]=&gt;
-    int(22179526)
-    [60]=&gt;
-    int(22179685)
-    [61]=&gt;
-    int(22180112)
-    [62]=&gt;
-    int(22180132)
-    [63]=&gt;
-    int(22180166)
-    [64]=&gt;
-    int(22180189)
-    [65]=&gt;
-    int(22180200)
-    [66]=&gt;
-    int(22186613)
-    [67]=&gt;
-    int(22187131)
-    [68]=&gt;
-    int(22187139)
-    [69]=&gt;
-    int(22187143)
-    [70]=&gt;
-    int(22201586)
-    [71]=&gt;
-    int(22201608)
-    [72]=&gt;
-    int(22203731)
-    [73]=&gt;
-    int(22203939)
-  }
-  ["category716"]=&gt;
-  array(6) {
-    [0]=&gt;
-    int(21975981)
-    [1]=&gt;
-    int(21977361)
-    [2]=&gt;
-    int(21986187)
-    [3]=&gt;
-    int(21987579)
-    [4]=&gt;
-    int(21994840)
-    [5]=&gt;
-    int(21997280)
-  }
-  ["category741"]=&gt;
-  array(28) {
-    [0]=&gt;
-    int(22350407)
-    [1]=&gt;
-    int(22352236)
-    [2]=&gt;
-    int(22353552)
-    [3]=&gt;
-    int(22371004)
-    [4]=&gt;
-    int(22371480)
-    [5]=&gt;
-    int(22519845)
-    [6]=&gt;
-    int(22521306)
-    [7]=&gt;
-    int(22521592)
-    [8]=&gt;
-    int(22523570)
-    [9]=&gt;
-    int(22523575)
-    [10]=&gt;
-    int(22524661)
-    [11]=&gt;
-    int(22524667)
-    [12]=&gt;
-    int(22524669)
-    [13]=&gt;
-    int(22524709)
-    [14]=&gt;
-    int(22524730)
-    [15]=&gt;
-    int(22531488)
-    [16]=&gt;
-    int(22531514)
-    [17]=&gt;
-    int(22531538)
-    [18]=&gt;
-    int(22531562)
-    [19]=&gt;
-    int(22533083)
-    [20]=&gt;
-    int(22534428)
-    [21]=&gt;
-    int(22535284)
-    [22]=&gt;
-    int(22535591)
-    [23]=&gt;
-    int(22535617)
-    [24]=&gt;
-    int(22535739)
-    [25]=&gt;
-    int(22535749)
-    [26]=&gt;
-    int(22535752)
-    [27]=&gt;
-    int(22535763)
-  }
-  ["category715"]=&gt;
-  array(41) {
-    [0]=&gt;
-    int(22336155)
-    [1]=&gt;
-    int(22336162)
-    [2]=&gt;
-    int(22336170)
-    [3]=&gt;
-    int(22336206)
-    [4]=&gt;
-    int(22336234)
-    [5]=&gt;
-    int(22336237)
-    [6]=&gt;
-    int(22576247)
-    [7]=&gt;
-    int(22576254)
-    [8]=&gt;
-    int(22576277)
-    [9]=&gt;
-    int(22576320)
-    [10]=&gt;
-    int(22576334)
-    [11]=&gt;
-    int(22576351)
-    [12]=&gt;
-    int(22576360)
-    [13]=&gt;
-    int(22576444)
-    [14]=&gt;
-    int(22576459)
-    [15]=&gt;
-    int(22576486)
-    [16]=&gt;
-    int(22576510)
-    [17]=&gt;
-    int(22576576)
-    [18]=&gt;
-    int(22577862)
-    [19]=&gt;
-    int(22593117)
-    [20]=&gt;
-    int(22593307)
-    [21]=&gt;
-    int(22594181)
-    [22]=&gt;
-    int(22594495)
-    [23]=&gt;
-    int(22594667)
-    [24]=&gt;
-    int(22594948)
-    [25]=&gt;
-    int(22595649)
-    [26]=&gt;
-    int(22616649)
-    [27]=&gt;
-    int(22617124)
-    [28]=&gt;
-    int(22617801)
-    [29]=&gt;
-    int(22619609)
-    [30]=&gt;
-    int(22621342)
-    [31]=&gt;
-    int(22622422)
-    [32]=&gt;
-    int(22625142)
-    [33]=&gt;
-    int(22634481)
-    [34]=&gt;
-    int(22634493)
-    [35]=&gt;
-    int(22634626)
-    [36]=&gt;
-    int(22634676)
-    [37]=&gt;
-    int(22634687)
-    [38]=&gt;
-    int(22684852)
-    [39]=&gt;
-    int(22684872)
-    [40]=&gt;
-    int(22685172)
-  }
-  ["category886"]=&gt;
-  array(0) {
-  }
-  ["category714"]=&gt;
-  array(27) {
-    [0]=&gt;
-    int(22206446)
-    [1]=&gt;
-    int(22207031)
-    [2]=&gt;
-    int(22207308)
-    [3]=&gt;
-    int(22207517)
-    [4]=&gt;
-    int(22851824)
-    [5]=&gt;
-    int(22851987)
-    [6]=&gt;
-    int(22852639)
-    [7]=&gt;
-    int(22853689)
-    [8]=&gt;
-    int(22855189)
-    [9]=&gt;
-    int(22855688)
-    [10]=&gt;
-    int(22861079)
-    [11]=&gt;
-    int(22861082)
-    [12]=&gt;
-    int(22861306)
-    [13]=&gt;
-    int(22861385)
-    [14]=&gt;
-    int(22862233)
-    [15]=&gt;
-    int(22862325)
-    [16]=&gt;
-    int(22862566)
-    [17]=&gt;
-    int(22862745)
-    [18]=&gt;
-    int(22862955)
-    [19]=&gt;
-    int(22862984)
-    [20]=&gt;
-    int(22865516)
-    [21]=&gt;
-    int(22865577)
-    [22]=&gt;
-    int(22940773)
-    [23]=&gt;
-    int(22942065)
-    [24]=&gt;
-    int(22944628)
-    [25]=&gt;
-    int(22945732)
-    [26]=&gt;
-    int(22946279)
-  }
-  ["category813"]=&gt;
-  array(29) {
-    [0]=&gt;
-    int(24257923)
-    [1]=&gt;
-    int(24257982)
-    [2]=&gt;
-    int(24258191)
-    [3]=&gt;
-    int(24258277)
-    [4]=&gt;
-    int(24258481)
-    [5]=&gt;
-    int(24258671)
-    [6]=&gt;
-    int(24258719)
-    [7]=&gt;
-    int(24263462)
-    [8]=&gt;
-    int(24264110)
-    [9]=&gt;
-    int(24265370)
-    [10]=&gt;
-    int(24265532)
-    [11]=&gt;
-    int(24266033)
-    [12]=&gt;
-    int(24266128)
-    [13]=&gt;
-    int(24266296)
-    [14]=&gt;
-    int(24266365)
-    [15]=&gt;
-    int(24267325)
-    [16]=&gt;
-    int(24267630)
-    [17]=&gt;
-    int(24270140)
-    [18]=&gt;
-    int(24270179)
-    [19]=&gt;
-    int(24270214)
-    [20]=&gt;
-    int(24271373)
-    [21]=&gt;
-    int(24271393)
-    [22]=&gt;
-    int(24271451)
-    [23]=&gt;
-    int(24271457)
-    [24]=&gt;
-    int(24325442)
-    [25]=&gt;
-    int(24329051)
-    [26]=&gt;
-    int(24329119)
-    [27]=&gt;
-    int(24329157)
-    [28]=&gt;
-    int(24329306)
-  }
-  ["category880"]=&gt;
-  array(20) {
-    [0]=&gt;
-    int(22686726)
-    [1]=&gt;
-    int(22686740)
-    [2]=&gt;
-    int(22686794)
-    [3]=&gt;
-    int(22686796)
-    [4]=&gt;
-    int(22686907)
-    [5]=&gt;
-    int(22686912)
-    [6]=&gt;
-    int(22691209)
-    [7]=&gt;
-    int(23708863)
-    [8]=&gt;
-    int(23766318)
-    [9]=&gt;
-    int(23770547)
-    [10]=&gt;
-    int(23771965)
-    [11]=&gt;
-    int(23774093)
-    [12]=&gt;
-    int(23774935)
-    [13]=&gt;
-    int(23775152)
-    [14]=&gt;
-    int(23775372)
-    [15]=&gt;
-    int(23776821)
-    [16]=&gt;
-    int(23777249)
-    [17]=&gt;
-    int(23777468)
-    [18]=&gt;
-    int(23777650)
-    [19]=&gt;
-    int(23812877)
-  }
-  ["category713"]=&gt;
-  array(18) {
-    [0]=&gt;
-    int(22334829)
-    [1]=&gt;
-    int(22334845)
-    [2]=&gt;
-    int(22334861)
-    [3]=&gt;
-    int(22334874)
-    [4]=&gt;
-    int(22690571)
-    [5]=&gt;
-    int(22692019)
-    [6]=&gt;
-    int(22692052)
-    [7]=&gt;
-    int(22692079)
-    [8]=&gt;
-    int(22692146)
-    [9]=&gt;
-    int(22692155)
-    [10]=&gt;
-    int(22692720)
-    [11]=&gt;
-    int(22692930)
-    [12]=&gt;
-    int(22693082)
-    [13]=&gt;
-    int(22693292)
-    [14]=&gt;
-    int(22693690)
-    [15]=&gt;
-    int(22694500)
-    [16]=&gt;
-    int(22694851)
-    [17]=&gt;
-    int(22695096)
-  }
-  ["category867"]=&gt;
-  array(24) {
-    [0]=&gt;
-    int(22628756)
-    [1]=&gt;
-    int(22637127)
-    [2]=&gt;
-    int(22638702)
-    [3]=&gt;
-    int(22736680)
-    [4]=&gt;
-    int(22812655)
-    [5]=&gt;
-    int(22812921)
-    [6]=&gt;
-    int(22812990)
-    [7]=&gt;
-    int(22813014)
-    [8]=&gt;
-    int(22813019)
-    [9]=&gt;
-    int(22849338)
-    [10]=&gt;
-    int(22849857)
-    [11]=&gt;
-    int(22850292)
-    [12]=&gt;
-    int(22856576)
-    [13]=&gt;
-    int(22856914)
-    [14]=&gt;
-    int(22857447)
-    [15]=&gt;
-    int(22862327)
-    [16]=&gt;
-    int(22862536)
-    [17]=&gt;
-    int(22862871)
-    [18]=&gt;
-    int(22868499)
-    [19]=&gt;
-    int(22924051)
-    [20]=&gt;
-    int(22924800)
-    [21]=&gt;
-    int(22925874)
-    [22]=&gt;
-    int(22925932)
-    [23]=&gt;
-    int(23188625)
-  }
-  ["category742"]=&gt;
-  array(63) {
-    [0]=&gt;
-    int(22209328)
-    [1]=&gt;
-    int(22209542)
-    [2]=&gt;
-    int(22209691)
-    [3]=&gt;
-    int(22210159)
-    [4]=&gt;
-    int(22210206)
-    [5]=&gt;
-    int(22210280)
-    [6]=&gt;
-    int(22210461)
-    [7]=&gt;
-    int(22210479)
-    [8]=&gt;
-    int(22210491)
-    [9]=&gt;
-    int(22210502)
-    [10]=&gt;
-    int(22210518)
-    [11]=&gt;
-    int(22210528)
-    [12]=&gt;
-    int(22210532)
-    [13]=&gt;
-    int(22210551)
-    [14]=&gt;
-    int(22210581)
-    [15]=&gt;
-    int(22210589)
-    [16]=&gt;
-    int(22211003)
-    [17]=&gt;
-    int(22211136)
-    [18]=&gt;
-    int(22211397)
-    [19]=&gt;
-    int(22274823)
-    [20]=&gt;
-    int(22274841)
-    [21]=&gt;
-    int(22325737)
-    [22]=&gt;
-    int(22326306)
-    [23]=&gt;
-    int(22334172)
-    [24]=&gt;
-    int(22334552)
-    [25]=&gt;
-    int(22334565)
-    [26]=&gt;
-    int(22334619)
-    [27]=&gt;
-    int(22740168)
-    [28]=&gt;
-    int(22741060)
-    [29]=&gt;
-    int(22741533)
-    [30]=&gt;
-    int(22742877)
-    [31]=&gt;
-    int(22810159)
-    [32]=&gt;
-    int(22811092)
-    [33]=&gt;
-    int(22811233)
-    [34]=&gt;
-    int(22811241)
-    [35]=&gt;
-    int(22811250)
-    [36]=&gt;
-    int(22811254)
-    [37]=&gt;
-    int(22811285)
-    [38]=&gt;
-    int(22811436)
-    [39]=&gt;
-    int(22811515)
-    [40]=&gt;
-    int(22812410)
-    [41]=&gt;
-    int(22812755)
-    [42]=&gt;
-    int(22812940)
-    [43]=&gt;
-    int(22825169)
-    [44]=&gt;
-    int(22826039)
-    [45]=&gt;
-    int(22826365)
-    [46]=&gt;
-    int(22827123)
-    [47]=&gt;
-    int(22827722)
-    [48]=&gt;
-    int(22828132)
-    [49]=&gt;
-    int(22828211)
-    [50]=&gt;
-    int(22828356)
-    [51]=&gt;
-    int(22830791)
-    [52]=&gt;
-    int(22830928)
-    [53]=&gt;
-    int(22831007)
-    [54]=&gt;
-    int(22841610)
-    [55]=&gt;
-    int(22842542)
-    [56]=&gt;
-    int(22843168)
-    [57]=&gt;
-    int(22843566)
-    [58]=&gt;
-    int(22844263)
-    [59]=&gt;
-    int(22845144)
-    [60]=&gt;
-    int(22850219)
-    [61]=&gt;
-    int(22850538)
-    [62]=&gt;
-    int(22936958)
-  }
-  ["category796"]=&gt;
-  array(4) {
-    [0]=&gt;
-    int(22206435)
-    [1]=&gt;
-    int(22952420)
-    [2]=&gt;
-    int(22953931)
-    [3]=&gt;
-    int(22954308)
-  }
-  ["category868"]=&gt;
-  array(12) {
-    [0]=&gt;
-    int(22563930)
-    [1]=&gt;
-    int(22926074)
-    [2]=&gt;
-    int(22939608)
-    [3]=&gt;
-    int(22984389)
-    [4]=&gt;
-    int(22984828)
-    [5]=&gt;
-    int(22986058)
-    [6]=&gt;
-    int(22987994)
-    [7]=&gt;
-    int(22988458)
-    [8]=&gt;
-    int(23003632)
-    [9]=&gt;
-    int(23009847)
-    [10]=&gt;
-    int(23010016)
-    [11]=&gt;
-    int(23035843)
-  }
-  ["category72"]=&gt;
-  array(1) {
-    [0]=&gt;
-    int(21818829)
-  }
-  ["category1184"]=&gt;
-  array(0) {
-  }
-}
+{
+  "status": "SUCCESS",
+  "inventories": [
+    {
+      "inventory_id": 741,
+      "name": "Akord",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "78",
+        "79",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_99",
+        "warehouse_2005606"
+      ],
+      "default_warehouse": "warehouse_2005606",
+      "reservations": false,
+      "is_default": false
+    },
+    {
+      "inventory_id": 712,
+      "name": "Comad",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl",
+        "sk",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "65",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "643",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "77",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 801,
+      "name": "Kocot Kids Nowy",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "65",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "643",
+        "750",
+        756,
+        757
+      ],
+      "default_price_group": "65",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 713,
+      "name": "Furnival",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 1213,
+      "name": "Hekiert",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "sk",
+        "hu",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 813,
+      "name": "Laski Skrzyniowe",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 880,
+      "name": "Laski Tapicerka",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 715,
+      "name": "Piaski Skrzyniowe",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "643",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 886,
+      "name": "Piaski Tapicerka",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "77",
+        "78",
+        "750",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 796,
+      "name": "Lemur",
+      "description": "Lemur",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 868,
+      "name": "Marpol",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 714,
+      "name": "Platforma Mebli",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "77",
+        "78",
+        "79",
+        "643",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 867,
+      "name": "Presti\u017c",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 742,
+      "name": "Vivaldi",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "cs",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "750",
+        "756",
+        "757"
+      ],
+      "default_price_group": "78",
+      "warehouses": [
+        "bl_89",
+        "bl_99"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 716,
+      "name": "Wr\u00f3bel",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl",
+        "ro"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "65",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "79",
+        "643",
+        756,
+        757
+      ],
+      "default_price_group": "65",
+      "warehouses": [
+        "bl_89"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": false
+    },
+    {
+      "inventory_id": 1184,
+      "name": "Akord hurtownia",
+      "description": "",
+      "languages": [
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "643"
+      ],
+      "default_price_group": "643",
+      "warehouses": [
+        "warehouse_2005606"
+      ],
+      "default_warehouse": "warehouse_2005606",
+      "reservations": false,
+      "is_default": false
+    },
+    {
+      "inventory_id": 72,
+      "name": "Katalog domy\u015blny",
+      "description": "",
+      "languages": [
+        "pl"
+      ],
+      "default_language": "pl",
+      "price_groups": [
+        "65",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "643"
+      ],
+      "default_price_group": "77",
+      "warehouses": [
+        "bl_89",
+        "bl_99",
+        "bl_100"
+      ],
+      "default_warehouse": "bl_89",
+      "reservations": true,
+      "is_default": true
+    }
+  ]
+}bool(true)
