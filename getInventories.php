@@ -13,7 +13,7 @@ $response = curl_exec($curl);
 
 
 echo '<pre>';
-var_dump($response);
+var_dump(json_decode($response));
 echo '</pre>';
 
 
